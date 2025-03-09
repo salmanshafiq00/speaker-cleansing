@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fix My Speaker - Sound & Vibration Cleaner</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/ScrollTrigger.min.js"></script>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+
+
+</head>
+
+<body>
+    <header id="header">
+        <div class="header-container">
+            <div class="logo">
+                <div class="logo-icon">
+                    <img src="logo-header.png" alt="logo">
+                </div>
+                <h2>FixitSpeaker</h2>
+                
+            </div>
+            <nav>
+                <div class="hamburger" id="hamburgerMenu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <ul id="navMenu">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#cleaner">Cleaner</a></li>
+                    <li><a href="#how-to">How To Use</a></li>
+                    <li><a href="#about">About</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="home" class="hero-section">
+            <h1>Fix My Speaker</h1>
+            <p>A simple tool to clean your phone speakers from water and dust using sound waves and vibration. Restore your speaker's quality in minutes.</p>
+        </section>
+
+        <section id="cleaner" class="speaker-section">
+            <div class="container">
+                <h2>Speaker Cleaner</h2>
+                <p class="description">Eject water and dust from your phone's speaker using sound waves or vibration.</p>
+
+                <div class="progress-circle">
+                    <svg width="250" height="250" viewBox="0 0 250 250">
+                        <circle class="circle-bg" cx="125" cy="125" r="115" />
+                        <circle class="circle-progress" cx="125" cy="125" r="115" />
+                    </svg>
+                    <div class="progress-text">0%</div>
+                    <div class="mode-text">SOUND</div>
+                </div>
+
+                <div class="mode-buttons">
+                    <button class="mode-button active" id="soundButton">SOUND</button>
+                    <button class="mode-button" id="vibrateButton">VIBRATE</button>
+                </div>
+
+                <button class="start-button" id="startButton">
+                    PRESS
+                </button>
+            </div>
+        </section>
+
+        <section id="how-to" class="how-to-section">
+            <h2>How To Use The Speaker Cleaner</h2>
+            <p>Follow these simple steps to clean your speaker effectively and safely:</p>
+
+            <div class="steps">
+                <div class="step">
+                    <div class="step-number">1</div>
+                    <h3>Choose Your Mode</h3>
+                    <p>Select either Sound or Vibration mode depending on your device capability and personal preference. Sound mode uses specific frequencies to push water out, while Vibration uses your device's vibration motor.</p>
+                </div>
+
+                <div class="step">
+                    <div class="step-number">2</div>
+                    <h3>Position Your Device</h3>
+                    <p>Place your device with the speaker facing downward to allow water or dust to be expelled by gravity. A slight angle often works best.</p>
+                </div>
+
+                <div class="step">
+                    <div class="step-number">3</div>
+                    <h3>Start The Cleaner</h3>
+                    <p>Press the PRESS button to start the cleaning process. The process will run for 45 seconds using various frequencies designed to dislodge water and particles.</p>
+                </div>
+
+                <div class="step">
+                    <div class="step-number">4</div>
+                    <h3>Repeat If Necessary</h3>
+                    <p>For heavily water-damaged speakers, you may need to run the process multiple times. Alternate between Sound and Vibration modes for best results.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-column">
+                <h3>FixMySpeaker</h3>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#cleaner">Speaker Cleaner</a></li>
+                    <li><a href="#how-to">How To Use</a></li>
+                    <li><a href="#about">About Us</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-column">
+                <h3>Resources</h3>
+                <ul>
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">Tips & Tricks</a></li>
+                    <li><a href="#">Device Compatibility</a></li>
+                    <li><a href="#">Speaker Maintenance</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-column">
+                <h3>Legal</h3>
+                <ul>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms of Use</a></li>
+                    <li><a href="#">Disclaimer</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="copyright">
+            <p>&copy; 2025 FixitSpeaker. All rights reserved by Salman.</p>
+        </div>
+    </footer>
+
+    <script src="main.js"></script>   
+</body>
+
+</html>
+
