@@ -17,6 +17,17 @@ Fix My Speaker is a free web-based tool designed to **remove water and dust** fr
 3️⃣ **Start Cleaning** – Press the **"PRESS"** button to begin the cleaning process.  
 4️⃣ **Repeat if Necessary** – Run multiple times if the speaker is heavily clogged.  
 
+## 🌐 Live Demo  
+[🔗 Click here to try Fixit Speaker](https://your-live-demo-link.com)  
+
+## 🛠️ Technologies Used  
+- **HTML, CSS, JavaScript** – For the frontend interface and interactions.  
+- **SVG & CSS Animations** – For the circular progress effect.  
+- **Web APIs** – Uses Web Audio API and Vibration API for cleaning functionality.  
+
+## 📜 License  
+This project is **open-source** under the [MIT License](LICENSE).  
+
 ## 📂 Installation & Usage  
 
 Since this is a web-based tool, no installation is required. Simply open the webpage and start using it.  
@@ -32,14 +43,5 @@ cd speaker-cleansing
 
 # Open the index.html file in your browser
 
-## 🌐 Live Demo  
-[🔗 Click here to try Fixit Speaker](https://your-live-demo-link.com)  
 
-## 🛠️ Technologies Used  
-- **HTML, CSS, JavaScript** – For the frontend interface and interactions.  
-- **SVG & CSS Animations** – For the circular progress effect.  
-- **Web APIs** – Uses Web Audio API and Vibration API for cleaning functionality.  
-
-## 📜 License  
-This project is **open-source** under the [MIT License](LICENSE).  
 
