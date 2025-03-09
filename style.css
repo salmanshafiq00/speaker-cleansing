@@ -132,7 +132,7 @@ main {
     flex-direction: column;
     align-items: center;
     text-align: center;
-    padding: 1.5rem 1.5rem;
+    /* padding: 1.5rem 1.5rem; */
 }
 
 .hero-section h1 {
@@ -148,7 +148,7 @@ main {
 }
 
 .hero-section p {
-    max-width: 600px;
+    max-width: 800px;
     color: #555;
     font-size: 1.2em;
     margin-bottom: 1.5rem;
@@ -169,7 +169,7 @@ main {
 }
 
 .container {
-    max-width: 600px;
+    max-width: 800px;
     width: 100%;
     margin: 0 auto;
     text-align: center;
@@ -384,6 +384,10 @@ footer {
     font-size: 0.9em;
 }
 
+.owner{
+    font-weight: bold;
+    color: rgb(172, 205, 255);
+}
 /* Tablet responsive styles */
 @media (max-width: 992px) {
     .hero-section h1 {
