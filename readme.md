@@ -18,7 +18,7 @@ Fix My Speaker is a free web-based tool designed to **remove water and dust** fr
 4️⃣ **Repeat if Necessary** – Run multiple times if the speaker is heavily clogged.  
 
 ## 🌐 Live Demo  
-[🔗 Click here to try Fixit Speaker](https://your-live-demo-link.com)  
+[🔗 Click here to try Fixit Speaker](https://speakercleansing.netlify.app/)  
 
 ## 🛠️ Technologies Used  
 - **HTML, CSS, JavaScript** – For the frontend interface and interactions.  
